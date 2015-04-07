@@ -16,11 +16,14 @@ body {
 	padding: 0em;
 }
 
+
 header {
 	background-image: url("../images/header-texture.png");
 	background-size: 75px auto;
-	background-repeat: repeat;
-	background-position: center;
+	margin: 0em;
+	padding: 0.5em;
+	text-align: center;
+	color: #512200;
 }
 
 
@@ -33,6 +36,20 @@ header {
 	text-align: center;
 }
 
+
+.button {
+	border-radius: 20px;
+	color: white;
+	padding: 0.5em;
+	background-image: linear-gradient(to bottom, #6fc000, #388200);
+	display: inline block;
+	text-align: center;
+	box-shadow: 5px 2px 2px #888888;
+}
+
+.button:hover {
+	background-image: linear-gradient(to bottom, #6fc000, #214d00);
+}
 
 
 footer  {
