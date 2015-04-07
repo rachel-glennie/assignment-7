@@ -11,5 +11,37 @@ img {
 }
 
 body {
-	font-family: 'Doris', sans-serif;
+	font-family: 'Dosis', sans-serif;
+	margin: 0em;
+	padding: 0em;
+}
+
+header {
+	background-image: url("../images/header-texture.png");
+	background-size: 75px auto;
+	background-repeat: repeat;
+	background-position: center;
+}
+
+
+.billboard {
+	background-image: url("../images/billboard.jpg");
+	background-size: 100% auto;
+	background-position: center;
+	color: white;
+	padding: 3em;
+	text-align: center;
+}
+
+
+
+footer  {
+	background-color: #a79082;
+	padding: 2em;
+}
+
+footer img {
+	text-align: center;
+	display: inline-block;
+	width: 25px;
 }
