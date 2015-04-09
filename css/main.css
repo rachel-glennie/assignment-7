@@ -43,10 +43,38 @@ header {
 	background-image: url("../images/header-texture.png");
 	background-size: 75px auto;
 	margin: 0em;
-	padding: 0.5em;
 	text-align: center;
 	color: #512200;
+	font-weight: bold;
 }
+
+
+ol {
+	list-style: none;
+	padding: 1em 1em;
+	margin: 0em;
+	color: white;
+	background: #512200;
+	opacity: 0.5;
+}
+
+ol li {
+	display: block;
+	float: left;
+	width: 25%;
+}
+
+ol a{
+	margin: 0em;
+	color: white;
+	text-decoration: none;
+}
+
+ol:hover {
+	background: #512200;
+	opacity: 0.5;
+}
+
 
 
 .billboard {
@@ -54,7 +82,7 @@ header {
 	background-size: 100% auto;
 	background-position: center;
 	color: white;
-	padding: 3em;
+	padding: 3em 0em;
 	text-align: center;
 }
 
