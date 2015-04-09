@@ -21,10 +21,6 @@ h1 {
 	margin: 0em;
 }
 
-h2 {
-	font-size: 1em;
-}
-
 .left-bug {
 	width: 30px;
 	float: left;
@@ -51,17 +47,18 @@ header {
 
 ol {
 	list-style: none;
-	padding: 1em 1em;
+	overflow: hidden;
+	padding: 0em;
 	margin: 0em;
-	color: white;
-	background: #512200;
-	opacity: 0.5;
+	background: rgba(81, 34, 0, 0.5);
 }
 
 ol li {
-	display: block;
+	margin: 0em;
 	float: left;
+	padding: 0.5em;
 	width: 25%;
+	text-align: center;
 }
 
 ol a{
@@ -70,11 +67,9 @@ ol a{
 	text-decoration: none;
 }
 
-ol:hover {
-	background: #512200;
-	opacity: 0.5;
+ol li:hover {
+	background: rgba(81, 34, 0, 0.5);
 }
-
 
 
 .billboard {
@@ -86,6 +81,27 @@ ol:hover {
 	text-align: center;
 }
 
+.billboard p {
+	background-image: linear-gradient(to bottom, transparent, rgba(0,0,0,0.5));
+	padding: 1em 2em;
+}
+
+.right-image {
+	margin: 0em;
+	float: right;
+	width: 50%;
+}
+
+.left-image {
+	margin: 0em;
+	float: left;
+	width: 50%;
+}
+
+.box {
+	position: relative;
+}
+
 
 .button {
 	border-radius: 20px;
@@ -95,6 +111,7 @@ ol:hover {
 	display: inline block;
 	text-align: center;
 	box-shadow: 5px 2px 2px #888888;
+	position: absolute;
 }
 
 .button:hover {
@@ -103,12 +120,11 @@ ol:hover {
 
 
 footer  {
-	background-color: #a79082;
-	padding: 2em;
+	background-color: rgba(81, 34, 0, 0.5);
+	padding: 1em;
+	text-align: center;
 }
 
 footer img {
-	text-align: center;
-	display: inline-block;
-	width: 25px;
+	width: 30px;
 }
