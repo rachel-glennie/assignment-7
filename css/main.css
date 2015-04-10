@@ -81,7 +81,7 @@ ol li:hover {
 
 .billboard p {
 	background-image: linear-gradient(to bottom, transparent, rgba(0,0,0,0.5));
-	padding-top: 7em;
+	padding-top: 40%;
 	padding-bottom: 1em;
 	width: 100%;
 	font-weight: bold;
